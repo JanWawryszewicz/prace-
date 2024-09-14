@@ -1,1 +1,129 @@
+import math
+PI = math.pi
 
+
+
+print("a - ppK b - prostokat c- tr d - równ e - tra f - tr równo g - koło h - romb h2 - romb2 0a - ob kwa 0b - ob prost 0c - ob tr...")
+print("Va - obj sześć Vb - obj prost Vc - obj gran Vd - obj ostro Ve - obj walca Vf obj sto Vg obj kuli Pa - Pc sze Pb - Pc pros")
+inp = input()
+if "a" == inp:
+    a = float(input("a = "))
+    print(a*a)
+elif "b" == inp:
+    a = float(input("a = "))
+    b = float(input("b = "))
+    print(a*b)
+elif "c" == inp:
+     a = float(input("a = "))
+     h = float(input("h = "))
+     print((a*h)/2)
+elif "d" == inp:
+     a = float(input("a = "))
+     h = float(input("h = "))
+     print(a*h)
+elif "e" == inp:
+     a = float(input("a = "))
+     h = float(input("h = "))
+     b = float(input("b = "))
+     print(((a+b)*h)/2)
+elif "f" == inp:
+     a = float(input("a = "))
+     print(((a*a)*math.sqrt(3))/4)
+elif "g" == inp:
+     r = float(input("r = "))
+     print((r*r)*PI)
+elif "h" == inp:
+     a = float(input("a = "))
+     h = float(input("h = "))
+     print(a*h)
+elif "h2" == inp:
+     e = float(input("e = "))
+     f = float(input("f = "))
+     print((e*f)/2)
+elif "0a" == inp:
+     a = float(input("a = "))
+     print(4*a)
+elif "0b" == inp:
+     a = float(input("a = "))
+     b = float(input("b = "))
+     print((2*a)+(2*b))
+elif "0c" == inp:
+     a = float(input("a = "))
+     b = float(input("b = "))
+     c = float(input("c = "))
+     print(a+b+c)
+elif "0d" == inp:
+     a = float(input("a = "))
+     b = float(input("b = "))
+     print((2*a)+(2*b))
+elif "0e" == inp:
+     a = float(input("a = "))
+     b = float(input("b = "))
+     c = float(input("c = "))
+     d = float(input("d = "))
+     print(a+b+c+d)
+elif "0f" == inp:
+     a = float(input("a = "))
+     print(3*a)
+elif "0g" == inp:
+     r = float(input("r = "))
+     print((2*PI)*r)
+elif "0h" == inp:
+     a = float(input("a = "))
+     print(4*a)
+elif "Va" == inp:
+     a = float(input("a = "))
+     print(4*a)
+elif "Vb" == inp:
+     a = float(input("a = "))
+     b = float(input("b = "))
+     c = float(input("c = "))
+     print(a*b*c)
+elif "Vc" == inp:
+     Pp = float(input("Pp = "))
+     H = float(input("H = "))
+     print(Pp*H)
+elif "Vd" == inp:
+     Pp = float(input("Pp = "))
+     H = float(input("H = "))
+     print((3/Pp)*H)
+elif "Ve" == inp:
+     r = float(input("Pp = "))
+     H = float(input("H = "))
+     print(((r*r)*PI)*H)
+elif "Vf" == inp:
+     r = float(input("r = "))
+     H = float(input("H = "))
+     print(((r*r)*(3/PI)*H))
+elif "Vg" == inp:
+     r = float(input("r = "))
+     print((4/3*PI)*(r*r*r))
+elif "Pa" == inp:
+     a = float(input("a = "))
+     print(a*a*a*a*a*a)
+elif "Pb" == inp:
+     a = float(input("a = "))
+     b = float(input("b = "))
+     c = float(input("c = "))
+     print((2*a*b)+(2*a*c)+(2*b*c))
+elif "Pc" == inp:
+     Pp = float(input("Pp = "))
+     Pb = float(input("Pb = "))
+     print((2*Pp)+Pb)
+elif "Pd" == inp:
+     Pp = float(input("Pp = "))
+     Pb = float(input("Pb = "))
+     print(Pp+Pb)
+elif "Pe" == inp:
+     r = float(input("r = "))
+     H = float(input("H = "))
+     print((2*PI*(r*r))+(2*PI*r*H))
+elif "Pf" == inp:
+     r = float(input("r = "))
+     l = float(input("l = "))
+     print((PI*(r*r))+(PI*r*l))
+elif "Pg" == inp:
+     r = float(input("r = "))
+     print(4*PI*(r*r))
+else:
+    print("nie ma takiej komendy")
